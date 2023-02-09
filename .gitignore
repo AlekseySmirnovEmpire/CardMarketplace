@@ -3,3 +3,5 @@
 /dist
 /backups
 docker-compose.yaml
+/server/node_modules
+/server/dist
