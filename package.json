@@ -1,0 +1,13 @@
+{
+  "devDependencies": {
+    "prisma": "^4.10.0"
+  },
+  "dependencies": {
+    "@prisma/client": "^4.10.0"
+  },
+  "scripts": {
+    "dev:client": "npm start ../../CardMarketplace/client dev",
+    "dev:server": "npm start ../../CardMarketplace/server start:dev",
+    "dev": "concurrently \"npm start dev:client\" \"npm start dev:server\""
+  }
+}
