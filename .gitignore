@@ -1,0 +1,5 @@
+/node_modules
+.env
+/dist
+/backups
+docker-compose.yaml
