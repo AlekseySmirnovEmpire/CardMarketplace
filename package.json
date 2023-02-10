@@ -3,7 +3,8 @@
     "prisma": "^4.10.0"
   },
   "dependencies": {
-    "@prisma/client": "^4.10.0"
+    "@prisma/client": "^4.10.0",
+    "@types/uuid": "^9.0.0"
   },
   "scripts": {
     "dev:client": "npm start ../../CardMarketplace/client dev",
